@@ -15,11 +15,11 @@ These are the names of variables, functions, labels, and various other suer-defi
 Rule 1: The first character - a letter or an underscore <br>
 Rule 2: The subsequent characters must be either letters,digits or underscores ('_')
 
-|Correct|                     | Incorrect|
-|-------|---------------------|----------|
-|count  |                     | 1count   |
-|test23 |                     | hi!123   |
-|high_balance|                | high...balance|
+|Correct| Incorrect|
+|-------|----------|
+|count  | 1count   |
+|test23 | hi!123   |
+|high_balance| high...balance|
 
 
 Note - Name of the identifiers are case sensitive. Thus **count**, **Count** and **COUNT** all are different
@@ -42,29 +42,18 @@ There are five datatypes in C++. They are -
 ## Program 1
 In this program, we are creating five different variables of five different datatypes
 ```c++
-#include<iostream>
-using namespace std ;
+int age = 26 ;                              // integer datatype
 
-int main()
-{
-	// ------------------------------------------------------
-	//                    Datatypes in c++                  -
-	// ------------------------------------------------------
+char gender = 'M' ;                         // character datatype
 
-	int age = 26 ;                              // integer datatype
-
-	char gender = 'M' ;                         // character datatype
-
-	char name = "Jishnu" ;                      // String datatype
+char name = "Jishnu" ;                      // String datatype
 	
-	bool is_older_than18 = true ;               // boolean datatype
+bool is_older_than18 = true ;               // boolean datatype
 
-	float todays_temperature = 36.5 ;           // floating point datatype
+float todays_temperature = 36.5 ;           // floating point datatype
 
-	double radius_of_earth = 6400000 ;          //double floating point datatype
+double radius_of_earth = 6400000 ;          //double floating point datatype
 	
-	return 0 ;
-}
 ```
 
 ### first Pause -
@@ -88,6 +77,7 @@ These operates on numbers the same way as we find them in mathematics
 
 ## Program 2
 A sphere has a radius of 2.5 mm. What will be its volume and area ?
+
 
 
 
