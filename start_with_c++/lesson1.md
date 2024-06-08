@@ -1,10 +1,5 @@
 ### Lesson 1
 
-#### Learning objectives -
-// Will comment these later
-
---------
-
 # Variables in C++
 A variable is a named location in memoery that is used to hold a value that may be modified by the program
 
@@ -42,6 +37,7 @@ There are five datatypes in C++. They are -
 ## Program 1
 In this program, we are creating five different variables of five different datatypes
 ```c++
+
 int age = 26 ;                              // integer datatype
 
 char gender = 'M' ;                         // character datatype
@@ -74,9 +70,6 @@ double radius_of_earth = 6400000 ;          //double floating point datatype
 
 These operates on numbers the same way as we find them in mathematics
 
-
-## Program 2
-A sphere has a radius of 2.5 mm. What will be its volume and area ?
 
 
 
