@@ -34,7 +34,7 @@ There are five datatypes in C++. They are -
 
 # Examples
 
-## Program 1
+## problem 1
 In this program, we are creating five different variables of five different datatypes
 ```c++
 
@@ -69,10 +69,10 @@ double radius_of_earth = 6400000 ;          //double floating point datatype
 
 These operates on numbers the same way as we find them in mathematics
 
-## Program 2
+## problem 2
 Find out the volume and area of a sphere of radius 2.5 mm
 
-## program 3
+## problem 3
 A fluid is flowing through a pipe of diameter 10 mm with a velocity 1cm/s. The kinematic viscosity of the fluid is 1e-6 m^2/s. What will be Reynolds number for this flow ?
 
 We say Reynolds number corresponds to Re less than 2000. Can you write a program to check if our flow lies in the laminar regime or not ? 
