@@ -49,7 +49,6 @@ bool is_older_than18 = true ;               // boolean datatype
 float todays_temperature = 36.5 ;           // floating point datatype
 
 double radius_of_earth = 6400000 ;          //double floating point datatype
-	
 ```
 
 ### first Pause -
@@ -69,6 +68,15 @@ double radius_of_earth = 6400000 ;          //double floating point datatype
 |%|Modulus|
 
 These operates on numbers the same way as we find them in mathematics
+
+## Program 2
+Find out the volume and area of a sphere of radius 2.5 mm
+
+## program 3
+A fluid is flowing through a pipe of diameter 10 mm with a velocity 1cm/s. The kinematic viscosity of the fluid is 1e-6 m^2/s. What will be Reynolds number for this flow ?
+
+We say Reynolds number corresponds to Re less than 2000. Can you write a program to check if our flow lies in the laminar regime or not ? 
+
 
 
 
