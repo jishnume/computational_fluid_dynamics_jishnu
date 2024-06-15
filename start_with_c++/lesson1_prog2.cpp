@@ -28,6 +28,9 @@ int main()
 	volume2 = (4.0/3)*pi*pow(r,3) ;
 	cout << "Volume 2 = "<< volume2 << "m^3" << endl ;
 	
+	// -----------------------------------
+	//        Volume of the sphere       -
+	// -----------------------------------
 	sphere_vol = volume2 ;
 	cout << "Correct volume of the sphere = "<< sphere_vol << " m^3" << endl ;
 	
