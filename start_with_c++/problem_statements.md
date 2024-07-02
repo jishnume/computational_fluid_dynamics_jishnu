@@ -2,6 +2,28 @@
 
 ### Problem 1:
 
+Defining variables is an important part of writing a c++ program. For the following cases, can you construct a meaningful and valid variable ?
+
+1. Let's take your age for an example. Define a variable to store your age. What can you  say for your choice of datatype of this variable ?
+
+2. Create a variable to store the sex of a person.
+
+3. Suppose someone wants to vote in a upcoming election. Let's assume that you are a valid voter. Can you store this information as a c++ variable ? *Hint:* You need to use a Boolean variable.
+
+4. Create a variable to store today's temperature.
+
+5. Radius of earth is 6400 km. Can you create two variables to store earth's radius in m and km ?
+
+6. Console output is an important part of writing a C++ program. Can you write a statement in C++ to output the following message -
+
+   ```bash
+   I am learning C++
+   ```
+
+-----
+
+### Problem 2:
+
 Let's define a sphere lying in a 3D Cartesian coordinate space. Following are the some important points defined for the sphere -
 1. *Point A* - this is the origin of the sphere.
 2. *Point B* - this is a point on the surface of the sphere
@@ -13,7 +35,7 @@ The following are the tasks -
 
 - **Task 2** - Is the sphere lying at the origin ? How to find out if this yes or no ?
 
-  Hint: This can be found out by calculating the distance between the centre of the sphere and the origin.
+  *Hint*: This can be found out by calculating the distance between the centre of the sphere and the origin.
 
   * Find out the distance of the sphere from the origin of the coordinate space
   * Can you think some other ways in which it can be done without calculating the distance ? Can you write a program to incorporate such a logic if you have found one ? (I guess this is pretty evident !!)
