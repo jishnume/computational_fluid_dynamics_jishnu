@@ -35,6 +35,8 @@ The following are the tasks -
 
 - **Task 2** - Is the sphere lying at the origin ? How to find out if this yes or no ?
 
+- ** Task 3** - Can you write a function that can calculate the distance between two coordinates points ? 
+
   *Hint*: This can be found out by calculating the distance between the centre of the sphere and the origin.
 
   * Find out the distance of the sphere from the origin of the coordinate space
