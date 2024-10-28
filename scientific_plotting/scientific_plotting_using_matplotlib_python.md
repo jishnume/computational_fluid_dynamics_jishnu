@@ -40,7 +40,7 @@ To install a package manager to install various libraries for python.
 
 ```bash
 sudo apt-get update
-sudo apt-get installl python3-pip
+sudo apt-get install python3-pip
 ```
 
 **pip** is a package installer with the help of which one can install various widely used libraries available in python.
