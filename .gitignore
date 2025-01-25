@@ -9,3 +9,13 @@
 
 # Ignore all .out implementable file from c++
 *.out
+
+# Ignoring a bunch of files generated from the texmaker application. These all
+# files are related to a tex document
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
