@@ -1,0 +1,62 @@
+\documentclass[12pt]{beamer}
+
+% including packages
+\usepackage{xcolor}
+
+% including and setting up hyperref package
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=gray, urlcolor=cyan}
+
+\title{How to get started in basilisk CFD solver}
+\author{Jishnu Goswami}
+\institute{\small{\textcolor{gray}{Physics of Fluids and Soft Matter, Manchester Centre for Nonlinear Dynamics, Department of Physics and Astronomy, University of Manchester, Oxford Rd, UK}}}
+
+\date{\underline{Last Updated:} \today}
+
+\begin{document}
+\maketitle
+
+% Frame-1
+\begin{frame}{A few points}
+\begin{itemize}
+\item Basilisk works on adaptive Cartesian grids. \textcolor{gray}{(something I don't know anything about right now)}
+\vspace{5mm}
+\item Basilisk is written in a variant of c language.
+\vspace{5mm}
+\item The prerequisites for learning basilisk are the following -
+\begin{enumerate}
+\vspace{3mm}
+\item A good knowledge of \underline{C Programming Language}
+\vspace{3mm}
+\item A good hand in shell scripting
+\end{enumerate}
+\end{itemize}
+\end{frame}
+
+% Frame-2
+\begin{frame}
+\begin{itemize}
+\item The meaning of installing basilisk into your computing system is to download the source codes from a remotely hosted repository.
+\vspace{3mm}
+\item There are two ways of getting the source codes of basilisk
+\vspace{3mm}
+\begin{enumerate}
+\item Downloading the source code using \textit{darcs}. The principal benefit here is that this is version controlled.
+\item Downloading the source code via \textit{tarball}
+\end{enumerate}
+\vspace{3mm}
+\item The basilisk code is hosted at \href{https://darcs.net/Using}{darcs}. This is an open source version control system. So a little familiarity with this can be helpful.
+\vspace{3mm}
+\item To run the basilisk codes, we need a c99 compliant compiler. \textcolor{gray}{I am not really comfortable about compilers and different related versions of compilers present. I should look into it in a great detail. Important for GTA stuff too.}
+\end{itemize}
+\end{frame}
+
+% Frame-3
+\begin{frame}{Numerical Methodology}
+\begin{itemize}
+\item The time-integration step for solving saint-venant equation involves a generic predictor-corrector nummerical scheme. \textcolor{gray}{I need to look into this predictor-corrector method to better understand the numerical schemes at play}
+\vspace{5mm}
+\item In this example, the issues with \textit{compilers} and \textit{linkers} are introduced. \textcolor{gray}{The basic concepts of compilers and linkers are not clear to me.}
+\end{itemize}
+\end{frame}
+\end{document}
